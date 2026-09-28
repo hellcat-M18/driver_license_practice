@@ -1,0 +1,10 @@
+{
+  "name": "driver-license-practice",
+  "private": true,
+  "description": "運転免許の学科試験（本免）対策の○✕問題集。ルールの理由と「もし逆だったら」の解説つき。",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate.mjs",
+    "build:artifact": "node scripts/build-artifact.mjs"
+  }
+}
